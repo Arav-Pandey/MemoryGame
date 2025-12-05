@@ -1,18 +1,27 @@
-## Getting Started
+# Memory Match Game (Java Swing)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple and interactive Memory / Matching card game built using Java Swing. Players flip two cards at a time and try to find all matching pairs using the fewest number of tries.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Built with Java Swing
+- Randomized card order each game
+- Flip animation using `javax.swing.Timer`
+- Tracks number of tries
+- Clear separation of classes (Card, CardController, App)
+- Easy to customize or extend
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## How to Play
 
-## Dependency Management
+1. Click a card to flip it.
+2. Click a second card.
+3. If both cards match, they stay visible.
+4. If not, they flip back automatically after a short delay.
+5. Continue until all pairs are matched.
+6. The game displays the number of tries it took to finish.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
